@@ -1,0 +1,221 @@
+
+* {
+    padding: 10px;
+}
+body {
+    display: grid;
+    height: 100vh;
+    margin: 0;
+    place-items: center center;
+  }
+
+/** card spain**/
+.card-spain{
+    height: 330px;
+    width: 390px;
+    padding: 0px;
+    margin-bottom:50px; 
+    border-radius: 5%;
+    border:0.1px outset lightgray;
+    box-shadow: 4px 4px 5px lightgrey; 
+    background:lavender;
+}
+
+.card-spain__image{
+    background-image: url('../images/bg-1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+.card-spain__image{
+    height: 200px;
+    width: 370px;
+}
+
+.card-spain__button--primary {
+    margin-top:4px; 
+    margin-left: 75%;
+    background-color:rgb(78,131,242);
+    color:white;
+    border: none;
+    border-radius: 5px;
+    height: 24px;
+    width: 80px;
+    text-align: center;
+    display: inline-block;
+    padding: 6px 15px 8px 15px;
+    font-size:10px;
+    letter-spacing: 2px;   
+    position: relative;
+}
+
+.card-spain__button--primary:after {
+    content: ">>";
+    position: absolute;
+    opacity: 0;
+    top:6px;
+    right:-20px;
+    transition:0.5s;
+}
+
+.card-spain__button--primary:hover {
+    padding-right:24px;
+    padding-left: 8px;
+}
+
+.card-spain__button--primary:hover:after {
+    opacity:1;
+    right: 5px;
+}
+
+.card-spain__text{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 400px; 
+}
+
+.card-spain__text> :first-child  {
+    padding: 1px 0px 0px 15px;
+    font-size: 1.6em;
+    letter-spacing: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card-spain__text>:nth-child(2) {
+    padding:0px 0px 0px 15px;
+    margin-top:-18px;
+    font-size: 1em;
+    letter-spacing: 0.7px;
+    color: gray;
+}
+
+.card-spain__icon{
+    background: url("../images/icon-heart.svg") no-repeat;
+    height: 40px;
+    padding-top:0px; 
+    margin-top: -60px;
+    margin-left: 310px; 
+}
+
+.card-spain__icon:hover{
+    background: url("../images/red-heart.svg") no-repeat;
+    width: 22px;
+    height: 24px;
+    float: left;
+    padding-left:0px; 
+}
+
+/** card italy **/
+
+.card-italy__image {
+    background:url("..//images/bg-3.png");
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+.card-italy__image{
+    height: 160px;
+    width: 360px;
+}
+
+.card-italy__button--primary {
+    margin-top:10px; 
+    margin-left: 73%;
+    background-color:rgb(238, 40, 40);
+    color:white;
+    border: none;
+    border-radius: 5px;
+    height: 24px;
+    width: 80px;
+    text-align: center;
+    display: inline-block;
+    padding: 6px 15px 8px 15px;
+    font-size:10px;
+    letter-spacing: 2px;   
+    position: relative;
+}
+
+.card-italy__button--primary:after {
+    content: ">>";
+    position: absolute;
+    opacity: 0;
+    top:6px;
+    right:-20px;
+    transition:0.5s;
+}
+.card-italy__button--primary:hover {
+    padding-right:24px;
+    padding-left: 8px;
+}
+
+.card-italy__button--primary:hover:after {
+    opacity:1;
+    right: 5px;
+}
+
+.card-italy{
+    display: grid;
+    height: 100vh;
+    margin: 0;
+    place-items: center center;
+    height: 400px;
+    width: 380px;
+    padding: 0px;
+    margin-bottom:50px; 
+    border-radius: 5%;
+    border:0.1px outset lightgray;
+    box-shadow: 4px 4px 5px lightgrey; 
+    background:white;
+}
+.card-italy__background{
+    background: linear-gradient(to bottom, rgba(250, 250, 245, 0)
+    ,rgb(250, 250, 250,2));
+    height: 190px;
+    width: 360px;
+    position: absolute;
+    margin-left: -10px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+
+}
+
+.card-italy__text> :nth-child(2) {
+    padding: 0px 0px 15px 15px;
+    margin-top: 10px; 
+    font-size: 1.6em;
+    letter-spacing: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-italy__text>:nth-child(3) {
+    padding:0px 15px 0px 15px;
+    margin-top:-18px;
+    font-size: 1em;
+    letter-spacing: 0.4px;
+    color: gray;
+}
+
+
+.card-italy__viewmorebutton {
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 110px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    background: rgb(56, 110, 228);
+    width: 120px;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+}
+.card-italy__viewmorebutton:hover {
+    color: rgb(56,110,228);
+    background:rgb(250,250,250,0);
+    border: 2px inset rgb(78,131,242);
+    
+}
+
+
